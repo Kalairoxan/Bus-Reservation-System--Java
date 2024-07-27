@@ -26,10 +26,15 @@ public class Bus {
     public void setCapacity(int capacity) {
         this.capacity = capacity;
     }
-public void displayBusInfo(){
-    System.out.println("BusNo: "+busNo+" Ac "+ac+" Total Capacity: "+capacity );
-}
-public int getBusNo() {
-    return busNo;
+
+    public int getBusNo() {
+        return busNo;
     }
-}
+
+    public void setBusNo(int busNo) {
+        this.busNo = busNo;
+    }
+    public void displayBusInfo(){
+        System.out.println("BusNo: "+busNo+" Ac "+ac+" Total Capacity: "+capacity );
+    }
+} 

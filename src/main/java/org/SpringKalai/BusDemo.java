@@ -24,7 +24,7 @@ public class BusDemo {
            useroption = scanner.nextInt();
 
            if(useroption == 1){
-               Booking booking = new Booking();
+               Booking booking = new  Booking();
                if(booking.isAvailable(bookings,buses)){
                 bookings.add(booking);
                    System.out.println("Your Booking Is Confirmed");
